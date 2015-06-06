@@ -1,0 +1,765 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-plugin-autocover' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/ZH/project/mybooks/package.json
+6 verbose installManyTop reading scoped package data from /Users/ZH/project/mybooks/node_modules/gitbook-plugin/package.json
+7 verbose installManyTop reading scoped package data from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-disqus/package.json
+8 info package.json gitbook-plugin@0.0.2 license should be a valid SPDX license expression
+9 info package.json gitbook-plugin-disqus@0.0.1 license should be a valid SPDX license expression
+10 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/package.json
+11 silly cache add args [ 'gitbook-plugin-autocover', null ]
+12 verbose cache add spec gitbook-plugin-autocover
+13 silly cache add parsed spec { raw: 'gitbook-plugin-autocover',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'gitbook-plugin-autocover',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 silly addNamed gitbook-plugin-autocover@*
+15 verbose addNamed "*" is a valid semver range for gitbook-plugin-autocover
+16 silly addNameRange { name: 'gitbook-plugin-autocover', range: '*', hasData: false }
+17 silly mapToRegistry name gitbook-plugin-autocover
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-autocover
+21 verbose addNameRange registry:https://registry.npmjs.org/gitbook-plugin-autocover not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/gitbook-plugin-autocover
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 02:32:12
+25 verbose request id b6a7380ebedfabb4
+26 http request GET https://registry.npmjs.org/gitbook-plugin-autocover
+27 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+28 info attempt registry request try #2 at 02:32:22
+29 http request GET https://registry.npmjs.org/gitbook-plugin-autocover
+30 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+31 info attempt registry request try #3 at 02:33:22
+32 http request GET https://registry.npmjs.org/gitbook-plugin-autocover
+33 http 200 https://registry.npmjs.org/gitbook-plugin-autocover
+34 silly get cb [ 200,
+34 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly get     etag: '"ELJ9AVCP0G1PFR6LOF9H8GWGW"',
+34 silly get     'content-type': 'application/json',
+34 silly get     'cache-control': 'max-age=60',
+34 silly get     'content-length': '13431',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Sat, 06 Jun 2015 18:33:24 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-sjc3130-SJC',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1433615604.833065,VS0,VE89',
+34 silly get     vary: 'Accept' } ]
+35 verbose get saving gitbook-plugin-autocover to /Users/ZH/.npm/registry.npmjs.org/gitbook-plugin-autocover/.cache.json
+36 silly addNameRange number 2 { name: 'gitbook-plugin-autocover', range: '*', hasData: true }
+37 silly addNameRange versions [ 'gitbook-plugin-autocover',
+37 silly addNameRange   [ '0.0.1',
+37 silly addNameRange     '0.0.2',
+37 silly addNameRange     '0.0.3',
+37 silly addNameRange     '0.0.4',
+37 silly addNameRange     '0.0.5',
+37 silly addNameRange     '1.0.0',
+37 silly addNameRange     '1.0.1',
+37 silly addNameRange     '1.0.2',
+37 silly addNameRange     '1.0.3',
+37 silly addNameRange     '1.1.0',
+37 silly addNameRange     '1.1.1',
+37 silly addNameRange     '1.2.0',
+37 silly addNameRange     '1.2.1' ] ]
+38 silly addNamed gitbook-plugin-autocover@1.2.1
+39 verbose addNamed "1.2.1" is a plain semver version for gitbook-plugin-autocover
+40 silly mapToRegistry name gitbook-plugin-autocover
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-autocover
+44 verbose addRemoteTarball https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz not in flight; adding
+45 verbose addRemoteTarball [ 'https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz',
+45 verbose addRemoteTarball   '801608af20cb351422edaff8623a36d23b7ee2ea' ]
+46 info retry fetch attempt 1 at 02:33:25
+47 info attempt registry request try #1 at 02:33:25
+48 http fetch GET https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz
+49 http fetch 200 https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz
+50 silly fetchAndShaCheck shasum 801608af20cb351422edaff8623a36d23b7ee2ea
+51 verbose addTmpTarball /tmp/npm-95981-a93d686a/registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz not in flight; adding
+52 verbose addTmpTarball already have metadata; skipping unpack for gitbook-plugin-autocover@1.2.1
+53 silly cache afterAdd gitbook-plugin-autocover@1.2.1
+54 verbose afterAdd /Users/ZH/.npm/gitbook-plugin-autocover/1.2.1/package/package.json not in flight; writing
+55 verbose afterAdd /Users/ZH/.npm/gitbook-plugin-autocover/1.2.1/package/package.json written
+56 silly install resolved [ { name: 'gitbook-plugin-autocover',
+56 silly install resolved     description: 'Generate a cover for a gitbook',
+56 silly install resolved     main: 'index.js',
+56 silly install resolved     version: '1.2.1',
+56 silly install resolved     engines: { gitbook: '*' },
+56 silly install resolved     dependencies: { canvas: '1.1.6', lodash: '2.4.1', q: '1.0.1' },
+56 silly install resolved     homepage: 'https://github.com/GitbookIO/plugin-autocover',
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'https://github.com/GitbookIO/plugin-autocover.git' },
+56 silly install resolved     license: 'Apache 2',
+56 silly install resolved     bugs: { url: 'https://github.com/GitbookIO/plugin-autocover/issues' },
+56 silly install resolved     _id: 'gitbook-plugin-autocover@1.2.1',
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '801608af20cb351422edaff8623a36d23b7ee2ea',
+56 silly install resolved        tarball: 'http://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz' },
+56 silly install resolved     _from: 'gitbook-plugin-autocover@*',
+56 silly install resolved     _npmVersion: '1.4.6',
+56 silly install resolved     _npmUser: { name: 'aarono', email: 'aaron.omullan@gmail.com' },
+56 silly install resolved     maintainers: [ [Object], [Object] ],
+56 silly install resolved     directories: {},
+56 silly install resolved     _shasum: '801608af20cb351422edaff8623a36d23b7ee2ea',
+56 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook-plugin-autocover/-/gitbook-plugin-autocover-1.2.1.tgz' } ]
+57 info install gitbook-plugin-autocover@1.2.1 into /Users/ZH/project/mybooks
+58 info installOne gitbook-plugin-autocover@1.2.1
+59 verbose installOne of gitbook-plugin-autocover to /Users/ZH/project/mybooks not in flight; installing
+60 verbose lock using /Users/ZH/.npm/_locks/gitbook-plugin-autocover-a4fca94ea2acc51c.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+61 silly install write writing gitbook-plugin-autocover 1.2.1 to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+62 verbose unbuild node_modules/gitbook-plugin-autocover
+63 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover is being purged from base /Users/ZH/project/mybooks
+64 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+65 verbose tar unpack /Users/ZH/.npm/gitbook-plugin-autocover/1.2.1/package.tgz
+66 verbose tar unpacking to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+67 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover is being purged
+68 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+69 silly gunzTarPerm modes [ '755', '644' ]
+70 silly gunzTarPerm extractEntry package.json
+71 silly gunzTarPerm extractEntry .npmignore
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm extractEntry LICENSE
+74 silly gunzTarPerm extractEntry topic.js
+75 silly gunzTarPerm extractEntry draw.js
+76 silly gunzTarPerm extractEntry test.js
+77 silly gunzTarPerm extractEntry index.js
+78 silly gunzTarPerm extractEntry published-with-gitbook.png
+79 silly gunzTarPerm extractEntry colors.json
+80 silly gunzTarPerm extractEntry topics.json
+81 verbose write writing to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/package.json
+82 info preinstall gitbook-plugin-autocover@1.2.1
+83 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/package.json
+84 silly prepareForInstallMany adding canvas@1.1.6 from gitbook-plugin-autocover dependencies
+85 silly prepareForInstallMany adding lodash@2.4.1 from gitbook-plugin-autocover dependencies
+86 silly prepareForInstallMany adding q@1.0.1 from gitbook-plugin-autocover dependencies
+87 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/package.json
+88 silly cache add args [ 'canvas@1.1.6', null ]
+89 verbose cache add spec canvas@1.1.6
+90 silly cache add args [ 'lodash@2.4.1', null ]
+91 verbose cache add spec lodash@2.4.1
+92 silly cache add parsed spec { raw: 'canvas@1.1.6',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'canvas',
+92 silly cache add   rawSpec: '1.1.6',
+92 silly cache add   spec: '1.1.6',
+92 silly cache add   type: 'version' }
+93 silly addNamed canvas@1.1.6
+94 verbose addNamed "1.1.6" is a plain semver version for canvas
+95 silly mapToRegistry name canvas
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/canvas
+99 verbose addNameVersion registry:https://registry.npmjs.org/canvas not in flight; fetching
+100 silly cache add parsed spec { raw: 'lodash@2.4.1',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'lodash',
+100 silly cache add   rawSpec: '2.4.1',
+100 silly cache add   spec: '2.4.1',
+100 silly cache add   type: 'version' }
+101 silly addNamed lodash@2.4.1
+102 verbose addNamed "2.4.1" is a plain semver version for lodash
+103 silly mapToRegistry name lodash
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/lodash
+107 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+108 silly cache add args [ 'q@1.0.1', null ]
+109 verbose cache add spec q@1.0.1
+110 silly cache add parsed spec { raw: 'q@1.0.1',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'q',
+110 silly cache add   rawSpec: '1.0.1',
+110 silly cache add   spec: '1.0.1',
+110 silly cache add   type: 'version' }
+111 silly addNamed q@1.0.1
+112 verbose addNamed "1.0.1" is a plain semver version for q
+113 silly mapToRegistry name q
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/q
+117 verbose addNameVersion registry:https://registry.npmjs.org/q not in flight; fetching
+118 verbose request uri https://registry.npmjs.org/canvas
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 02:33:28
+121 http request GET https://registry.npmjs.org/canvas
+122 verbose request uri https://registry.npmjs.org/lodash
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 02:33:28
+125 verbose etag "6WHXH2B9QBP91A4I47RESGRAQ"
+126 http request GET https://registry.npmjs.org/lodash
+127 verbose request uri https://registry.npmjs.org/q
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 02:33:28
+130 verbose etag "3OJ4TGO9SBUH38BBEASXTBLQ0"
+131 http request GET https://registry.npmjs.org/q
+132 http 304 https://registry.npmjs.org/q
+133 silly get cb [ 304,
+133 silly get   { date: 'Sat, 06 Jun 2015 18:33:29 GMT',
+133 silly get     via: '1.1 varnish',
+133 silly get     'cache-control': 'max-age=60',
+133 silly get     etag: '"3OJ4TGO9SBUH38BBEASXTBLQ0"',
+133 silly get     age: '43',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-served-by': 'cache-fra1224-FRA',
+133 silly get     'x-cache': 'HIT',
+133 silly get     'x-cache-hits': '1',
+133 silly get     'x-timer': 'S1433615609.086071,VS0,VE1',
+133 silly get     vary: 'Accept' } ]
+134 verbose etag https://registry.npmjs.org/q from cache
+135 verbose get saving q to /Users/ZH/.npm/registry.npmjs.org/q/.cache.json
+136 silly cache afterAdd q@1.0.1
+137 verbose afterAdd /Users/ZH/.npm/q/1.0.1/package/package.json not in flight; writing
+138 verbose afterAdd /Users/ZH/.npm/q/1.0.1/package/package.json written
+139 http 304 https://registry.npmjs.org/lodash
+140 silly get cb [ 304,
+140 silly get   { date: 'Sat, 06 Jun 2015 18:33:29 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     'cache-control': 'max-age=60',
+140 silly get     etag: '"6WHXH2B9QBP91A4I47RESGRAQ"',
+140 silly get     age: '18',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-fra1222-FRA',
+140 silly get     'x-cache': 'HIT',
+140 silly get     'x-cache-hits': '38',
+140 silly get     'x-timer': 'S1433615609.112031,VS0,VE0',
+140 silly get     vary: 'Accept' } ]
+141 verbose etag https://registry.npmjs.org/lodash from cache
+142 verbose get saving lodash to /Users/ZH/.npm/registry.npmjs.org/lodash/.cache.json
+143 silly cache afterAdd lodash@2.4.1
+144 verbose afterAdd /Users/ZH/.npm/lodash/2.4.1/package/package.json not in flight; writing
+145 verbose afterAdd /Users/ZH/.npm/lodash/2.4.1/package/package.json written
+146 http 200 https://registry.npmjs.org/canvas
+147 silly get cb [ 200,
+147 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly get     etag: '"7OBRNWZD9Z2H2QMEMAL6A9LQZ"',
+147 silly get     'content-type': 'application/json',
+147 silly get     'cache-control': 'max-age=60',
+147 silly get     'content-length': '67904',
+147 silly get     'accept-ranges': 'bytes',
+147 silly get     date: 'Sat, 06 Jun 2015 18:33:28 GMT',
+147 silly get     via: '1.1 varnish',
+147 silly get     age: '0',
+147 silly get     connection: 'keep-alive',
+147 silly get     'x-served-by': 'cache-sjc3132-SJC',
+147 silly get     'x-cache': 'HIT',
+147 silly get     'x-cache-hits': '1',
+147 silly get     'x-timer': 'S1433615608.824171,VS0,VE84',
+147 silly get     vary: 'Accept' } ]
+148 verbose get saving canvas to /Users/ZH/.npm/registry.npmjs.org/canvas/.cache.json
+149 silly mapToRegistry name canvas
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/canvas
+153 verbose addRemoteTarball https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz not in flight; adding
+154 verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz',
+154 verbose addRemoteTarball   'd84b088f3bcd3840fe14977cd3625f5fe89f81ee' ]
+155 info retry fetch attempt 1 at 02:33:29
+156 info attempt registry request try #1 at 02:33:29
+157 http fetch GET https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz
+158 http fetch 200 https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz
+159 silly fetchAndShaCheck shasum d84b088f3bcd3840fe14977cd3625f5fe89f81ee
+160 verbose addTmpTarball /tmp/npm-95981-a93d686a/registry.npmjs.org/canvas/-/canvas-1.1.6.tgz not in flight; adding
+161 verbose addTmpTarball already have metadata; skipping unpack for canvas@1.1.6
+162 silly cache afterAdd canvas@1.1.6
+163 verbose afterAdd /Users/ZH/.npm/canvas/1.1.6/package/package.json not in flight; writing
+164 verbose afterAdd /Users/ZH/.npm/canvas/1.1.6/package/package.json written
+165 silly install resolved [ { name: 'q',
+165 silly install resolved     version: '1.0.1',
+165 silly install resolved     description: 'A library for promises (CommonJS/Promises/A,B,D)',
+165 silly install resolved     homepage: 'https://github.com/kriskowal/q',
+165 silly install resolved     author:
+165 silly install resolved      { name: 'Kris Kowal',
+165 silly install resolved        email: 'kris@cixar.com',
+165 silly install resolved        url: 'https://github.com/kriskowal' },
+165 silly install resolved     keywords:
+165 silly install resolved      [ 'q',
+165 silly install resolved        'promise',
+165 silly install resolved        'promises',
+165 silly install resolved        'promises-a',
+165 silly install resolved        'promises-aplus',
+165 silly install resolved        'deferred',
+165 silly install resolved        'future',
+165 silly install resolved        'async',
+165 silly install resolved        'flow control',
+165 silly install resolved        'fluent',
+165 silly install resolved        'browser',
+165 silly install resolved        'node' ],
+165 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+165 silly install resolved     bugs: { url: 'http://github.com/kriskowal/q/issues' },
+165 silly install resolved     license:
+165 silly install resolved      { type: 'MIT',
+165 silly install resolved        url: 'http://github.com/kriskowal/q/raw/master/LICENSE' },
+165 silly install resolved     main: 'q.js',
+165 silly install resolved     repository: { type: 'git', url: 'git://github.com/kriskowal/q.git' },
+165 silly install resolved     engines: { node: '>=0.6.0', teleport: '>=0.2.0' },
+165 silly install resolved     dependencies: {},
+165 silly install resolved     devDependencies:
+165 silly install resolved      { jshint: '~2.1.9',
+165 silly install resolved        cover: '*',
+165 silly install resolved        'jasmine-node': '1.11.0',
+165 silly install resolved        opener: '*',
+165 silly install resolved        'promises-aplus-tests': '1.x',
+165 silly install resolved        grunt: '~0.4.1',
+165 silly install resolved        'grunt-cli': '~0.1.9',
+165 silly install resolved        'grunt-contrib-uglify': '~0.2.2',
+165 silly install resolved        matcha: '~0.2.0' },
+165 silly install resolved     scripts:
+165 silly install resolved      { test: 'jasmine-node spec && promises-aplus-tests spec/aplus-adapter',
+165 silly install resolved        'test-browser': 'opener spec/q-spec.html',
+165 silly install resolved        benchmark: 'matcha',
+165 silly install resolved        lint: 'jshint q.js',
+165 silly install resolved        cover: 'cover run node_modules/jasmine-node/bin/jasmine-node spec && cover report html && opener cover_html/index.html',
+165 silly install resolved        minify: 'grunt',
+165 silly install resolved        prepublish: 'grunt' },
+165 silly install resolved     overlay: { teleport: [Object] },
+165 silly install resolved     directories: { test: './spec' },
+165 silly install resolved     _id: 'q@1.0.1',
+165 silly install resolved     dist:
+165 silly install resolved      { shasum: '11872aeedee89268110b10a718448ffb10112a14',
+165 silly install resolved        tarball: 'http://registry.npmjs.org/q/-/q-1.0.1.tgz' },
+165 silly install resolved     _from: 'q@1.0.1',
+165 silly install resolved     _npmVersion: '1.4.4',
+165 silly install resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+165 silly install resolved     maintainers: [ [Object], [Object] ],
+165 silly install resolved     _shasum: '11872aeedee89268110b10a718448ffb10112a14',
+165 silly install resolved     _resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+165 silly install resolved     readme: 'ERROR: No README data found!' },
+165 silly install resolved   { name: 'lodash',
+165 silly install resolved     version: '2.4.1',
+165 silly install resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+165 silly install resolved     homepage: 'http://lodash.com/',
+165 silly install resolved     license: 'MIT',
+165 silly install resolved     main: 'dist/lodash.js',
+165 silly install resolved     keywords:
+165 silly install resolved      [ 'amd',
+165 silly install resolved        'browser',
+165 silly install resolved        'client',
+165 silly install resolved        'customize',
+165 silly install resolved        'functional',
+165 silly install resolved        'server',
+165 silly install resolved        'util' ],
+165 silly install resolved     author:
+165 silly install resolved      { name: 'John-David Dalton',
+165 silly install resolved        email: 'john.david.dalton@gmail.com',
+165 silly install resolved        url: 'http://allyoucanleet.com/' },
+165 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+165 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+165 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+165 silly install resolved     engines: [ 'node', 'rhino' ],
+165 silly install resolved     files:
+165 silly install resolved      [ 'LICENSE.txt',
+165 silly install resolved        'lodash.js',
+165 silly install resolved        'dist/lodash.js',
+165 silly install resolved        'dist/lodash.min.js',
+165 silly install resolved        'dist/lodash.compat.js',
+165 silly install resolved        'dist/lodash.compat.min.js',
+165 silly install resolved        'dist/lodash.underscore.js',
+165 silly install resolved        'dist/lodash.underscore.min.js' ],
+165 silly install resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+165 silly install resolved     volo: { type: 'directory', ignore: [Object] },
+165 silly install resolved     _id: 'lodash@2.4.1',
+165 silly install resolved     dist:
+165 silly install resolved      { shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+165 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' },
+165 silly install resolved     _from: 'lodash@2.4.1',
+165 silly install resolved     _npmVersion: '1.3.14',
+165 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+165 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+165 silly install resolved     directories: {},
+165 silly install resolved     _shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+165 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+165 silly install resolved     readme: 'ERROR: No README data found!' },
+165 silly install resolved   { name: 'canvas',
+165 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+165 silly install resolved     version: '1.1.6',
+165 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+165 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+165 silly install resolved     keywords:
+165 silly install resolved      [ 'canvas',
+165 silly install resolved        'graphic',
+165 silly install resolved        'graphics',
+165 silly install resolved        'pixman',
+165 silly install resolved        'cairo',
+165 silly install resolved        'image',
+165 silly install resolved        'images',
+165 silly install resolved        'pdf' ],
+165 silly install resolved     homepage: 'https://github.com/learnboost/node-canvas',
+165 silly install resolved     repository: { type: 'git', url: 'git://github.com/learnboost/node-canvas' },
+165 silly install resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+165 silly install resolved     dependencies: { nan: '~1.2.0' },
+165 silly install resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+165 silly install resolved     engines: { node: '>= 0.6.0' },
+165 silly install resolved     main: './lib/canvas.js',
+165 silly install resolved     gypfile: true,
+165 silly install resolved     gitHead: '138abe9aa30b75e8406ceddd9177bff20ac44ceb',
+165 silly install resolved     bugs: { url: 'https://github.com/learnboost/node-canvas/issues' },
+165 silly install resolved     _id: 'canvas@1.1.6',
+165 silly install resolved     _shasum: 'd84b088f3bcd3840fe14977cd3625f5fe89f81ee',
+165 silly install resolved     _from: 'canvas@1.1.6',
+165 silly install resolved     _npmVersion: '1.4.21',
+165 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+165 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+165 silly install resolved     dist:
+165 silly install resolved      { shasum: 'd84b088f3bcd3840fe14977cd3625f5fe89f81ee',
+165 silly install resolved        tarball: 'http://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz' },
+165 silly install resolved     directories: {},
+165 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.1.6.tgz' } ]
+166 info install q@1.0.1 into /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+167 info install lodash@2.4.1 into /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+168 info install canvas@1.1.6 into /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+169 info installOne q@1.0.1
+170 verbose installOne of q to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover not in flight; installing
+171 info installOne lodash@2.4.1
+172 verbose installOne of lodash to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover not in flight; installing
+173 info installOne canvas@1.1.6
+174 verbose installOne of canvas to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover not in flight; installing
+175 verbose lock using /Users/ZH/.npm/_locks/q-c26d3cbc17bd5a17.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+176 verbose lock using /Users/ZH/.npm/_locks/lodash-78c81f794aa64ba8.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+177 silly install write writing q 1.0.1 to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+178 verbose lock using /Users/ZH/.npm/_locks/canvas-9538afc5d512281d.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+179 silly install write writing lodash 2.4.1 to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+180 silly install write writing canvas 1.1.6 to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+181 verbose unbuild node_modules/gitbook-plugin-autocover/node_modules/q
+182 verbose unbuild node_modules/gitbook-plugin-autocover/node_modules/lodash
+183 verbose unbuild node_modules/gitbook-plugin-autocover/node_modules/canvas
+184 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q is being purged from base /Users/ZH/project/mybooks
+185 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+186 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash is being purged from base /Users/ZH/project/mybooks
+187 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+188 verbose tar unpack /Users/ZH/.npm/q/1.0.1/package.tgz
+189 verbose tar unpacking to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+190 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q is being purged
+191 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+192 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas is being purged from base /Users/ZH/project/mybooks
+193 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+194 verbose tar unpack /Users/ZH/.npm/lodash/2.4.1/package.tgz
+195 verbose tar unpacking to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+196 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash is being purged
+197 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+198 silly gunzTarPerm modes [ '755', '644' ]
+199 verbose tar unpack /Users/ZH/.npm/canvas/1.1.6/package.tgz
+200 verbose tar unpacking to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+201 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas is being purged
+202 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+203 silly gunzTarPerm modes [ '755', '644' ]
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry package.json
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm extractEntry .npmignore
+209 silly gunzTarPerm extractEntry index.js
+210 silly gunzTarPerm extractEntry README.md
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm extractEntry lodash.js
+213 silly gunzTarPerm extractEntry LICENSE
+214 silly gunzTarPerm extractEntry q.js
+215 silly gunzTarPerm extractEntry queue.js
+216 silly gunzTarPerm extractEntry CONTRIBUTING.md
+217 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+218 silly gunzTarPerm extractEntry benchmark/scenarios.js
+219 silly gunzTarPerm extractEntry History.md
+220 silly gunzTarPerm extractEntry Makefile
+221 silly gunzTarPerm extractEntry LICENSE.txt
+222 silly gunzTarPerm extractEntry Readme.md
+223 silly gunzTarPerm extractEntry binding.gyp
+224 silly gunzTarPerm extractEntry .gitmodules
+225 silly gunzTarPerm extractEntry dist/lodash.compat.js
+226 silly gunzTarPerm extractEntry install
+227 silly gunzTarPerm extractEntry lib/bindings.js
+228 silly gunzTarPerm extractEntry lib/canvas.js
+229 silly gunzTarPerm extractEntry lib/context2d.js
+230 silly gunzTarPerm extractEntry lib/image.js
+231 silly gunzTarPerm extractEntry lib/jpegstream.js
+232 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+233 silly gunzTarPerm extractEntry lib/pixelarray.js
+234 silly gunzTarPerm extractEntry lib/pngstream.js
+235 silly gunzTarPerm extractEntry src/Image.h
+236 silly gunzTarPerm extractEntry src/Canvas.cc
+237 silly gunzTarPerm extractEntry dist/lodash.js
+238 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+239 silly gunzTarPerm extractEntry src/CanvasGradient.h
+240 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+241 silly gunzTarPerm extractEntry src/CanvasPattern.h
+242 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+243 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+244 silly gunzTarPerm extractEntry src/FontFace.cc
+245 silly gunzTarPerm extractEntry src/FontFace.h
+246 silly gunzTarPerm extractEntry dist/lodash.min.js
+247 silly gunzTarPerm extractEntry src/Image.cc
+248 silly gunzTarPerm extractEntry src/Canvas.h
+249 silly gunzTarPerm extractEntry src/ImageData.cc
+250 silly gunzTarPerm extractEntry src/ImageData.h
+251 silly gunzTarPerm extractEntry src/JPEGStream.h
+252 silly gunzTarPerm extractEntry src/PNG.h
+253 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+254 silly gunzTarPerm extractEntry src/PixelArray.cc
+255 silly gunzTarPerm extractEntry src/PixelArray.h
+256 silly gunzTarPerm extractEntry src/Point.h
+257 silly gunzTarPerm extractEntry src/closure.h
+258 verbose write writing to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q/package.json
+259 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+260 info preinstall q@1.0.1
+261 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q/package.json
+262 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q/package.json
+263 silly install resolved []
+264 verbose about to build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+265 info build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+266 info linkStuff q@1.0.1
+267 silly linkStuff q@1.0.1 has /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules as its parent node_modules
+268 silly gunzTarPerm extractEntry src/color.cc
+269 silly gunzTarPerm extractEntry src/color.h
+270 verbose linkBins q@1.0.1
+271 verbose linkMans q@1.0.1
+272 verbose rebuildBundles q@1.0.1
+273 info install q@1.0.1
+274 info postinstall q@1.0.1
+275 verbose unlock done using /Users/ZH/.npm/_locks/q-c26d3cbc17bd5a17.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/q
+276 silly gunzTarPerm extractEntry src/init.cc
+277 silly gunzTarPerm extractEntry .travis.yml
+278 silly gunzTarPerm extractEntry util/cairo_include.sh
+279 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+280 silly gunzTarPerm extractEntry util/has_lib.sh
+281 silly gunzTarPerm extractEntry util/lib_lookup.sh
+282 verbose write writing to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/package.json
+283 info preinstall canvas@1.1.6
+284 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/package.json
+285 silly prepareForInstallMany adding nan@~1.2.0 from canvas dependencies
+286 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/package.json
+287 silly cache add args [ 'nan@~1.2.0', null ]
+288 verbose cache add spec nan@~1.2.0
+289 silly cache add parsed spec { raw: 'nan@~1.2.0',
+289 silly cache add   scope: null,
+289 silly cache add   name: 'nan',
+289 silly cache add   rawSpec: '~1.2.0',
+289 silly cache add   spec: '>=1.2.0 <1.3.0',
+289 silly cache add   type: 'range' }
+290 silly addNamed nan@>=1.2.0 <1.3.0
+291 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for nan
+292 silly addNameRange { name: 'nan', range: '>=1.2.0 <1.3.0', hasData: false }
+293 silly mapToRegistry name nan
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/nan
+297 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+298 verbose request uri https://registry.npmjs.org/nan
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 02:33:31
+301 verbose etag "9D70CGL7I2GVSPGK48NI768U9"
+302 http request GET https://registry.npmjs.org/nan
+303 verbose write writing to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash/package.json
+304 info preinstall lodash@2.4.1
+305 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash/package.json
+306 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash/package.json
+307 silly install resolved []
+308 verbose about to build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+309 info build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+310 info linkStuff lodash@2.4.1
+311 silly linkStuff lodash@2.4.1 has /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules as its parent node_modules
+312 verbose linkBins lodash@2.4.1
+313 verbose linkMans lodash@2.4.1
+314 verbose rebuildBundles lodash@2.4.1
+315 info install lodash@2.4.1
+316 info postinstall lodash@2.4.1
+317 verbose unlock done using /Users/ZH/.npm/_locks/lodash-78c81f794aa64ba8.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/lodash
+318 http 304 https://registry.npmjs.org/nan
+319 silly get cb [ 304,
+319 silly get   { date: 'Sat, 06 Jun 2015 18:33:32 GMT',
+319 silly get     via: '1.1 varnish',
+319 silly get     'cache-control': 'max-age=60',
+319 silly get     etag: '"9D70CGL7I2GVSPGK48NI768U9"',
+319 silly get     age: '37',
+319 silly get     connection: 'keep-alive',
+319 silly get     'x-served-by': 'cache-sjc3130-SJC',
+319 silly get     'x-cache': 'HIT',
+319 silly get     'x-cache-hits': '1',
+319 silly get     'x-timer': 'S1433615612.575151,VS0,VE0',
+319 silly get     vary: 'Accept' } ]
+320 verbose etag https://registry.npmjs.org/nan from cache
+321 verbose get saving nan to /Users/ZH/.npm/registry.npmjs.org/nan/.cache.json
+322 silly addNameRange number 2 { name: 'nan', range: '>=1.2.0 <1.3.0', hasData: true }
+323 silly addNameRange versions [ 'nan',
+323 silly addNameRange   [ '0.3.0-wip',
+323 silly addNameRange     '0.3.0-wip2',
+323 silly addNameRange     '0.3.0',
+323 silly addNameRange     '0.3.1',
+323 silly addNameRange     '0.3.2',
+323 silly addNameRange     '0.4.0',
+323 silly addNameRange     '0.4.1',
+323 silly addNameRange     '0.4.2',
+323 silly addNameRange     '0.4.3',
+323 silly addNameRange     '0.4.4',
+323 silly addNameRange     '0.5.0',
+323 silly addNameRange     '0.5.1',
+323 silly addNameRange     '0.5.2',
+323 silly addNameRange     '0.6.0',
+323 silly addNameRange     '0.7.0',
+323 silly addNameRange     '0.7.1',
+323 silly addNameRange     '0.8.0',
+323 silly addNameRange     '1.0.0',
+323 silly addNameRange     '1.1.0',
+323 silly addNameRange     '1.1.1',
+323 silly addNameRange     '1.1.2',
+323 silly addNameRange     '1.2.0',
+323 silly addNameRange     '1.3.0',
+323 silly addNameRange     '1.4.0',
+323 silly addNameRange     '1.4.1',
+323 silly addNameRange     '1.5.0',
+323 silly addNameRange     '1.4.2',
+323 silly addNameRange     '1.4.3',
+323 silly addNameRange     '1.5.1',
+323 silly addNameRange     '1.5.2',
+323 silly addNameRange     '1.6.0',
+323 silly addNameRange     '1.5.3',
+323 silly addNameRange     '1.6.1',
+323 silly addNameRange     '1.6.2',
+323 silly addNameRange     '1.7.0',
+323 silly addNameRange     '1.8.0',
+323 silly addNameRange     '1.8.1',
+323 silly addNameRange     '1.8.2',
+323 silly addNameRange     '1.8.3',
+323 silly addNameRange     '1.8.4' ] ]
+324 silly addNamed nan@1.2.0
+325 verbose addNamed "1.2.0" is a plain semver version for nan
+326 silly mapToRegistry name nan
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/nan
+330 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-1.2.0.tgz not in flight; adding
+331 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.2.0.tgz',
+331 verbose addRemoteTarball   '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef' ]
+332 info retry fetch attempt 1 at 02:33:32
+333 info attempt registry request try #1 at 02:33:32
+334 http fetch GET https://registry.npmjs.org/nan/-/nan-1.2.0.tgz
+335 http fetch 200 https://registry.npmjs.org/nan/-/nan-1.2.0.tgz
+336 silly fetchAndShaCheck shasum 9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef
+337 verbose addTmpTarball /tmp/npm-95981-a93d686a/registry.npmjs.org/nan/-/nan-1.2.0.tgz not in flight; adding
+338 verbose addTmpTarball already have metadata; skipping unpack for nan@1.2.0
+339 silly cache afterAdd nan@1.2.0
+340 verbose afterAdd /Users/ZH/.npm/nan/1.2.0/package/package.json not in flight; writing
+341 verbose afterAdd /Users/ZH/.npm/nan/1.2.0/package/package.json written
+342 silly install resolved [ { name: 'nan',
+342 silly install resolved     version: '1.2.0',
+342 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+342 silly install resolved     main: 'include_dirs.js',
+342 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+342 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+342 silly install resolved     license: 'MIT',
+342 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+342 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+342 silly install resolved     _id: 'nan@1.2.0',
+342 silly install resolved     dist:
+342 silly install resolved      { shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+342 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.2.0.tgz' },
+342 silly install resolved     _from: 'nan@>=1.2.0 <1.3.0',
+342 silly install resolved     _npmVersion: '1.4.3',
+342 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+342 silly install resolved     maintainers: [ [Object] ],
+342 silly install resolved     directories: {},
+342 silly install resolved     _shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+342 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.2.0.tgz' } ]
+343 info install nan@1.2.0 into /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+344 info installOne nan@1.2.0
+345 verbose installOne of nan to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas not in flight; installing
+346 verbose lock using /Users/ZH/.npm/_locks/nan-fa39a4989f0942ba.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+347 silly install write writing nan 1.2.0 to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+348 verbose unbuild node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+349 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan is being purged from base /Users/ZH/project/mybooks
+350 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+351 verbose tar unpack /Users/ZH/.npm/nan/1.2.0/package.tgz
+352 verbose tar unpacking to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+353 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan is being purged
+354 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+355 silly gunzTarPerm modes [ '755', '644' ]
+356 silly gunzTarPerm extractEntry package.json
+357 silly gunzTarPerm extractEntry README.md
+358 silly gunzTarPerm extractEntry LICENSE
+359 silly gunzTarPerm extractEntry include_dirs.js
+360 silly gunzTarPerm extractEntry .dntrc
+361 silly gunzTarPerm extractEntry build/config.gypi
+362 silly gunzTarPerm extractEntry nan.h
+363 verbose write writing to /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan/package.json
+364 info preinstall nan@1.2.0
+365 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan/package.json
+366 verbose readDependencies loading dependencies from /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan/package.json
+367 silly install resolved []
+368 verbose about to build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+369 info build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+370 info linkStuff nan@1.2.0
+371 silly linkStuff nan@1.2.0 has /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules as its parent node_modules
+372 verbose linkBins nan@1.2.0
+373 verbose linkMans nan@1.2.0
+374 verbose rebuildBundles nan@1.2.0
+375 info install nan@1.2.0
+376 info postinstall nan@1.2.0
+377 verbose unlock done using /Users/ZH/.npm/_locks/nan-fa39a4989f0942ba.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas/node_modules/nan
+378 verbose about to build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+379 info build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+380 info linkStuff canvas@1.1.6
+381 silly linkStuff canvas@1.1.6 has /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules as its parent node_modules
+382 verbose linkBins canvas@1.1.6
+383 verbose linkMans canvas@1.1.6
+384 verbose rebuildBundles canvas@1.1.6
+385 verbose rebuildBundles [ 'nan' ]
+386 info install canvas@1.1.6
+387 verbose unsafe-perm in lifecycle false
+388 info canvas@1.1.6 Failed to exec install script
+389 verbose unlock done using /Users/ZH/.npm/_locks/canvas-9538afc5d512281d.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+390 verbose about to build /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+391 verbose unlock done using /Users/ZH/.npm/_locks/gitbook-plugin-autocover-a4fca94ea2acc51c.lock for /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+392 verbose stack Error: canvas@1.1.6 install: `node-gyp rebuild`
+392 verbose stack Exit status 1
+392 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+392 verbose stack     at EventEmitter.emit (events.js:110:17)
+392 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+392 verbose stack     at ChildProcess.emit (events.js:110:17)
+392 verbose stack     at maybeClose (child_process.js:1015:16)
+392 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+393 verbose pkgid canvas@1.1.6
+394 verbose cwd /Users/ZH/project/mybooks/My-personal-network-applications
+395 error Darwin 14.3.0
+396 error argv "node" "/usr/local/bin/npm" "install" "gitbook-plugin-autocover"
+397 error node v0.12.4
+398 error npm  v2.10.1
+399 error code ELIFECYCLE
+400 error canvas@1.1.6 install: `node-gyp rebuild`
+400 error Exit status 1
+401 error Failed at the canvas@1.1.6 install script 'node-gyp rebuild'.
+401 error This is most likely a problem with the canvas package,
+401 error not with npm itself.
+401 error Tell the author that this fails on your system:
+401 error     node-gyp rebuild
+401 error You can get their info via:
+401 error     npm owner ls canvas
+401 error There is likely additional logging output above.
+402 verbose exit [ 1, true ]
+403 verbose unbuild node_modules/gitbook-plugin-autocover/node_modules/canvas
+404 info preuninstall canvas@1.1.6
+405 info uninstall canvas@1.1.6
+406 verbose unbuild rmStuff canvas@1.1.6 from /Users/ZH/project/mybooks/node_modules
+407 verbose unbuild rmStuff in /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules
+408 info postuninstall canvas@1.1.6
+409 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas is being purged from base /Users/ZH/project/mybooks
+410 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+411 silly vacuum-fs purging /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules/canvas
+412 silly vacuum-fs quitting because other entries in /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover/node_modules
+413 verbose unbuild node_modules/gitbook-plugin-autocover
+414 info preuninstall gitbook-plugin-autocover@1.2.1
+415 info uninstall gitbook-plugin-autocover@1.2.1
+416 verbose unbuild rmStuff gitbook-plugin-autocover@1.2.1 from /Users/ZH/project/mybooks/node_modules
+417 info postuninstall gitbook-plugin-autocover@1.2.1
+418 silly gentlyRm /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover is being purged from base /Users/ZH/project/mybooks
+419 verbose gentlyRm don't care about contents; nuking /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+420 silly vacuum-fs purging /Users/ZH/project/mybooks/node_modules/gitbook-plugin-autocover
+421 silly vacuum-fs quitting because other entries in /Users/ZH/project/mybooks/node_modules
