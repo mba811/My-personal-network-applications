@@ -1,8 +1,10 @@
 {
-    "plugins": ["autocover"],
+    "plugins": [
+        "autocover"
+    ],
     "links": {
         "sidebar": {
-            "Contact us": "mailto:contact@gitbook.com"
+            "Contact us": "mailto:ztd811@gmail.com"
         }
     },
     "pluginsConfig": {}
